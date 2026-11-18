@@ -50,8 +50,12 @@ python -m venv .venv
 
 ## 远程仓库
 
-<https://github.com/o0leon0o/agent-study>（`main` 分支）
+<https://github.com/o0leon0o/Agent-study>（`main` 分支）
+
+- 本机 remote 走 SSH：`git@github.com:o0leon0o/Agent-study.git`
+- 换机器时重设：`git remote set-url origin <地址>`；HTTPS 地址同样可用，
+  凭据交给 Git Credential Manager 弹窗登录。
 
 ```powershell
-git push -u origin main      # 首次推送会由 Git Credential Manager 弹窗登录
+git push -u origin main
 ```
